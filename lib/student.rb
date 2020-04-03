@@ -2,8 +2,8 @@ require_relative "../config/environment.rb"
 
 class Student
 
-  attr_accessor :name, :album
-  attr_reader :id
+ attr_accessor :name, :album
+ attr_reader :id
  
   def initialize(id=nil, name, album)
     @id = id
