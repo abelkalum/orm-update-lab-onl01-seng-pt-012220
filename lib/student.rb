@@ -40,7 +40,6 @@ class Student
   
   def self.create(name:, grade:)
     student_new = self.new(name, grade)
-    binding.pry
     student_new.save
     student_new
   end
