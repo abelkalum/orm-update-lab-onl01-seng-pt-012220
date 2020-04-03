@@ -40,8 +40,8 @@ class Student
     else
       sql = "UPDATE students SET name = ? WHERE id = ?"
       DB[:conn].execute(sql, @name, @id)
+     end
     end
-  end
   
   def self.create(name:, grade:)
     student_new = self.new(name, grade)
