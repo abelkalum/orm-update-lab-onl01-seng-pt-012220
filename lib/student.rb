@@ -10,6 +10,8 @@ class Student
     @name = name
     @album = grade
   end
+  
+  
 
 
 end
